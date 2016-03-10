@@ -17,7 +17,7 @@ The installed tools are:
 
 ### Usage
 On the raspberry pi, run:  
-`wget -o installcv.sh https://raw.githubusercontent.com/FlyingGraysons/RasPi-OpenCV-Install/master/install-cv.sh && sudo bash installcv.sh`  
+`wget https://raw.githubusercontent.com/FlyingGraysons/RasPi-OpenCV-Install/master/install-cv.sh && sudo bash install-cv.sh`  
 This will download and run the script.
 
 Every step of the process, blue text appears saying what will happen, and when completed, green text will appear saying that it has done that step. 
