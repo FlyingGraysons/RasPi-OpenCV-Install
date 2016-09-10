@@ -1,6 +1,7 @@
 # RasPi-OpenCV-Install
 This script will install all the neccessary tools for openCV developement on a raspberry pi.  
 It will install openCV 2, with python binding for python 2.7.  
+There is also a python3 version, which uses python3 and pip3.   
 The installed tools are:
  - Pip
  - Python 2.7
@@ -18,7 +19,10 @@ The installed tools are:
 ### Usage
 On the raspberry pi, run:  
 `wget https://raw.githubusercontent.com/FlyingGraysons/RasPi-OpenCV-Install/master/install-cv.sh && sudo bash install-cv.sh`  
-This will download and run the script.
+This will download and run the script.  
+For the python3 version, run:  
+`wget https://raw.githubusercontent.com/FlyingGraysons/RasPi-OpenCV-Install/master/install-cv-python3.sh && sudo bash install-cv.sh-python3`  
+
 
 Every step of the process, blue text appears saying what will happen, and when completed, green text will appear saying that it has done that step. 
 
