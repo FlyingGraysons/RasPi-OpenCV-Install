@@ -1,7 +1,7 @@
 # RasPi-OpenCV-Install
 This script will install all the neccessary tools for openCV developement on a raspberry pi.  
 It will install openCV 2, with python binding for python 2.7, or for python3 using pip3. The difference in executable is `install-cv.sh` vs `install-cv.sh-python3`.
-The installed tools are:
+The installed tools by `install-cv.sh` are:
  - Pip
  - Python 2.7
  - NumPy
@@ -14,6 +14,21 @@ The installed tools are:
  - libgtk2.0-dev (for openCV GUI)
  - Video libraries: libavcodec-dev libavformat-dev libswscale-dev libv4l-dev 
  - OpenCV dependancies: libatlas-base-dev gfortran
+
+The installed tools by `install-cv.sh-python3` are:
+ - Pip3
+ - Python 3
+ - NumPy
+ - OpenCV 2.4
+ - virtualenv and virtualenvwrapper
+ - build-essential
+ - cmake
+ - pkg-config
+ - Image libraries: libjpeg8-dev libtiff4-dev libjasper-dev libpng12-dev
+ - libgtk2.0-dev (for openCV GUI)
+ - Video libraries: libavcodec-dev libavformat-dev libswscale-dev libv4l-dev 
+ - OpenCV dependancies: libatlas-base-dev gfortran
+
 
 ### Usage
 On the raspberry pi, run:  
